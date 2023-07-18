@@ -1,0 +1,10 @@
+# Project exclude paths
+/.gradle/
+/Maze Runner (Java)/task/build/
+/Maze Runner (Java)/task/out/
+/Maze Runner (Java)/task/out/production/classes/
+/Maze Runner (Java)/task/out/test/classes/
+/Topics/PriorityQueue/Biggest prime numbers/out/
+/Topics/PriorityQueue/Biggest prime numbers/out/production/classes/
+/Topics/The for-loop/Fizz Buzz/out/
+/Topics/The for-loop/Fizz Buzz/out/production/classes/

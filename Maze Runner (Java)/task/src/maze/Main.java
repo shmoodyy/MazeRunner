@@ -192,15 +192,6 @@ public class Main {
         }
     }
 
-    private static void printArray() {
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
-                System.out.print(maze[i][j]);
-            }
-            System.out.println();
-        }
-    }
-
     public static void printSolution() {
         boolean foundEntrance = false;
         boolean foundBoth = false;
