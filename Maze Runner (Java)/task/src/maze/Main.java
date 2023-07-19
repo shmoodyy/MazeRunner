@@ -234,7 +234,10 @@ public class Main {
 
     private static void generateExits(int[][] maze) {
         int exitRow = random.nextInt((rows - 2)) + 1;
-        exit = new int []{exitRow, columns - 1};
+        while (exitRow == entrance[0]) {
+            exitRow = random.nextInt((rows - 2)) + 1;
+        }
+        exit = new int[]{exitRow, columns - 1};
         maze[exitRow][columns - 1] = 1;
         maze[exitRow][columns - 2] = 1;
         maze[exitRow][columns - 3] = 1;
