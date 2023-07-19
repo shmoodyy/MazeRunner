@@ -237,6 +237,7 @@ public class Main {
         while (exitRow == entrance[0]) {
             exitRow = random.nextInt((rows - 2)) + 1;
         }
+
         exit = new int[]{exitRow, columns - 1};
         maze[exitRow][columns - 1] = 1;
         maze[exitRow][columns - 2] = 1;
